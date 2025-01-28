@@ -1,0 +1,6 @@
+numero = int(input("Fale um número inteiro:"))
+resto = numero % 15
+if (resto == 0):
+    print("O número",numero,"é divido por 3 e 5 ao mesmo tempo.")
+else:
+    print("O número",numero,"Não é divido por 3 e 5 ao mesmo tempo.")
